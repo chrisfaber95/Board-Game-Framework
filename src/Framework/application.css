@@ -1,0 +1,31 @@
+.grid {
+    -fx-background-color: #fff;
+}
+
+.stone{
+    -fx-border-color: black;
+    -fx-text-alignment: center;
+}
+
+.stone {
+    -fx-background-color: #BBB;
+    -fx-border-color: #000;
+    -fx-border-width: 2px;
+}
+
+.stone:hover {
+    -fx-background-color: red;
+}
+.stone.canMove:hover {
+    -fx-background-color: green;
+}
+
+.piece1 {
+    -fx-background-color: white;
+}
+.piece2 {
+    -fx-background-color: black;
+}
+.empty {
+    -fx-content-display: none;
+}
